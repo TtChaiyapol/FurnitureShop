@@ -2,8 +2,9 @@ import {createStackNavigator} from 'react-navigation-stack'
 import {createAppContainer} from 'react-navigation'
 import Home from '../screens/Home'
 import Detail from '../screens/Detail'
-import Profile from '../screens/Profile'
+import Menu from '../screens/Menu'
 import Address from '../screens/Address'
+import Register from '../screens/Register'
 import { AppLoading } from 'expo'
 
 const stackNavigatorOptions = {
@@ -11,9 +12,10 @@ const stackNavigatorOptions = {
 }
 
 const AppNavigator = createStackNavigator({
+    Register:{screen:Register},
     Home:{screen:Home},
     Detail:{screen:Detail},
-    Profile:{screen:Profile},
+    Menu:{screen:Menu},
     Address:{screen:Address},
    
     

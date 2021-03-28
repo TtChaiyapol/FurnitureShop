@@ -12,7 +12,7 @@ import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 import { ScrollView } from "react-native-gesture-handler";
 import { Avatar, Title, Caption, TouchableRipple } from "react-native-paper";
 
-export default class Profile extends React.Component {
+export default class Menu extends React.Component {
   render() {
     return (
       <SafeAreaView style={style.container}>
